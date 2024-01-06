@@ -1,6 +1,6 @@
 ﻿namespace Notifications.Errors;
 
-public abstract class Error
+public static class Error
 {
     /// <summary>
     /// Creates a required field error notification.

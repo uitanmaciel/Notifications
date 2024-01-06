@@ -3,7 +3,7 @@
 public sealed class Notification
 {
     public string Key { get; set; } = null!;
-    public string Message { get; set; } = null!;
+    public string Message { get; set; } 
 
     public Notification(string key, string message)
     {
@@ -18,14 +18,10 @@ public sealed class Notification
     }
 
     public Notification(string message, params object[] args)
-    {
-        Message = string.Format(message, args);
-    }    
+        => Message = string.Format(message, args);   
 
     public Notification(params object[] args)
-    {
-        Message = string.Format("{0}", args);
-    }
+        => Message = string.Format("{0}", args);
 
     public override string ToString() => $"{Key}: {Message}";
 }
