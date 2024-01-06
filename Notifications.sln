@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3C3638A3-1C7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications", "src\Notifications\Notifications.csproj", "{E8302F21-E217-4760-9CA1-A1ADF1C6E0C7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{82DDE664-53FA-4247-9728-ADD68B465540}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications.Tests", "tests\Notifications.Tests\Notifications.Tests.csproj", "{F8B3A957-1C61-47B0-AAA6-29800B071EA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,13 @@ Global
 		{E8302F21-E217-4760-9CA1-A1ADF1C6E0C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8302F21-E217-4760-9CA1-A1ADF1C6E0C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8302F21-E217-4760-9CA1-A1ADF1C6E0C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B3A957-1C61-47B0-AAA6-29800B071EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B3A957-1C61-47B0-AAA6-29800B071EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B3A957-1C61-47B0-AAA6-29800B071EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B3A957-1C61-47B0-AAA6-29800B071EA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E8302F21-E217-4760-9CA1-A1ADF1C6E0C7} = {3C3638A3-1C7B-494D-B23B-A39C2F3BEF2F}
+		{F8B3A957-1C61-47B0-AAA6-29800B071EA2} = {82DDE664-53FA-4247-9728-ADD68B465540}
 	EndGlobalSection
 EndGlobal
