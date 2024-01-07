@@ -1,5 +1,5 @@
 
-# Notification Design Pattern Library
+# Notification Pattern Library
 
 
 This library is a comprehensive implementation of the Notification Design Pattern, designed to facilitate error handling and validation in a systematic and flexible manner. It allows for accumulating errors and messages throughout the process flow, enabling a cohesive response mechanism.
